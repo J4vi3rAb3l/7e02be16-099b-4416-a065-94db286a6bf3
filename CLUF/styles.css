@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto en blanco */
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0; /* Aumentado el padding para más espacio */
+    text-align: center;
+}
+
+header img.logo {
+    height: 80px; /* Logo más grande */
+}
+
+.content {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #000; /* Fondo negro */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra blanca */
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+    margin-bottom: 10px; /* Espacio entre los botones y el texto de derechos */
+}
+
+.footer-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* Botón en blanco */
+    color: #000; /* Texto en negro */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative; /* Cambiado a relative para evitar que tape el texto */
+    bottom: 0;
+}
